@@ -1,0 +1,314 @@
+{
+  "allowed": "1",
+  "classlist": [
+      {
+          "class_id": 1,
+          "pre_section": "Kindergarten",
+          "pre_class": ""
+      },
+      {
+          "class_id": 2,
+          "pre_section": "Nursery",
+          "pre_class": "1"
+      },
+      {
+          "class_id": 3,
+          "pre_section": "Nursery",
+          "pre_class": "2"
+      },
+      {
+          "class_id": 4,
+          "pre_section": "Primary",
+          "pre_class": "1"
+      },
+      {
+          "class_id": 5,
+          "pre_section": "Primary",
+          "pre_class": "2"
+      },
+      {
+          "class_id": 6,
+          "pre_section": "Primary",
+          "pre_class": "3"
+      },
+      {
+          "class_id": 7,
+          "pre_section": "Primary",
+          "pre_class": "4"
+      },
+      {
+          "class_id": 8,
+          "pre_section": "Primary",
+          "pre_class": "5"
+      },
+      {
+          "class_id": 9,
+          "pre_section": "JSS",
+          "pre_class": "1"
+      },
+      {
+          "class_id": 10,
+          "pre_section": "JSS",
+          "pre_class": "2"
+      },
+      {
+          "class_id": 11,
+          "pre_section": "JSS",
+          "pre_class": "3"
+      },
+      {
+          "class_id": 12,
+          "pre_section": "SSS",
+          "pre_class": "1"
+      },
+      {
+          "class_id": 13,
+          "pre_section": "SSS",
+          "pre_class": "2"
+      },
+      {
+          "class_id": 14,
+          "pre_section": "SSS",
+          "pre_class": "3"
+      }
+  ],
+  "bio": [
+      {
+          "pre_id": 68,
+          "pre_adm_no": "PGIS1280",
+          "pre_sname": "Ameh",
+          "pre_fname": "Peace",
+          "pre_dob": "2005-09-22",
+          "pre_sex": "Female",
+          "pre_nat": "Angola",
+          "pre_soo": "--Choose--",
+          "pre_lga": "--Choose--",
+          "pre_health": "No",
+          "pre_address": "Mararaba",
+          "pre_pass": "peace.JPG",
+          "pre_date_adm": "2021-09-22 18:18:49"
+      }
+  ],
+  "results": [
+      {
+          "pre_resid": 352,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "ENGLISH",
+          "pre_first": "",
+          "pre_sec": "",
+          "pre_third": "",
+          "pre_exam": "8",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 353,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "MATHEMATICS",
+          "pre_first": "2",
+          "pre_sec": "8",
+          "pre_third": "10",
+          "pre_exam": "12",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 354,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "CIVIC EDUCATION",
+          "pre_first": "",
+          "pre_sec": "",
+          "pre_third": "6",
+          "pre_exam": "20",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 355,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "ECONOMICS",
+          "pre_first": "2",
+          "pre_sec": "6",
+          "pre_third": "5",
+          "pre_exam": "20",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 356,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "FIN. ACCOUNTING",
+          "pre_first": "1",
+          "pre_sec": "3",
+          "pre_third": "5",
+          "pre_exam": "20",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 357,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "BIOLOGY",
+          "pre_first": "4",
+          "pre_sec": "5",
+          "pre_third": "10",
+          "pre_exam": "17",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 358,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "COMMERCE",
+          "pre_first": "1",
+          "pre_sec": "5",
+          "pre_third": "5",
+          "pre_exam": "26",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 359,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "MARKETING",
+          "pre_first": "5",
+          "pre_sec": "4",
+          "pre_third": "5",
+          "pre_exam": "30",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      },
+      {
+          "pre_resid": 360,
+          "pre_adm_no": "PGIS1280",
+          "pre_acad": "2020/2021",
+          "pre_term": "3rd",
+          "pre_class": "SSS 2",
+          "pre_subject": "GOVERNMENT",
+          "pre_first": "",
+          "pre_sec": "",
+          "pre_third": "10",
+          "pre_exam": "6",
+          "pre_staff": "STA-4314",
+          "timestamps": "2021-09-27 01:23:25"
+      }
+  ],
+  "affect": [
+      {
+          "pre_id": 289,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Honesty",
+          "score": 1,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 290,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Reliability",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 291,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Interactiveness",
+          "score": 4,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 292,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Coordination",
+          "score": 3,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 293,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Diligence",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 294,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Neatness",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      }
+  ],
+  "psych": [
+      {
+          "pre_id": 193,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Dexterity",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 194,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Sports & Games",
+          "score": 3,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 195,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Accuracy",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      },
+      {
+          "pre_id": 196,
+          "pre_sid": "PGIS1280",
+          "acad_s": "2020/2021",
+          "term": "3rd",
+          "quality": "Creativity",
+          "score": 2,
+          "pre_staff_id": "STA-4314"
+      }
+  ]
+}
