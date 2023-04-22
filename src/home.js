@@ -17,11 +17,52 @@ export default function Home() {
     area:'',
     proficiency:''
   });
+  const[rsvp, setrsvp] = useState(false)
+  const org = [
+    {
+      id:1,
+      img:'./iwd (1).jpg',
+      name:'Motunrayo Jacob',
+      port:'WTM Ambassador, Organizer',
+    },
+  ]
+  const speak = [
+    {
+      id:1,
+      img:'./iwd (4).jpg',
+      name:'Umme Faatimah-Iz-Zaahra Mujore',
+      port:'Google WTM Ambassador, Software Developer',
+    },
+    {
+      id:2,
+      img:'./iwd (3).jpg',
+      name:'Sumaiya Nalukwago',
+      port:'Tech Content Creator, Women TechMakers Ambassador-Mbarara',
+    },
+    {
+      id:3,
+      img:'./iwd (5).jpg',
+      name:'Augusta Egesi',
+      port:'Product designer @ Nerdbug',
+    },
+    {
+      id:4,
+      img:'./iwd (6).jpg',
+      name:'Abra Oghenekeno',
+      port:'UX designer',
+    },
+    {
+      id:5,
+      img:'./iwd (2).jpg',
+      name:'Ogechukwu Aina',
+      port:'Technical Writer, WTM Ambassador',
+    }
+  ]
   const[showe, setshowe] = useState(false);  
   const[error, seterror] = useState({});  
   const[msg, setmsg] = useState('');  
 
-  var format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+  var format = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
   var formatem = /[ `!#$%^&*()_+\-=\[\]{};':"\\|,<>\/?~]/;
 
   const nav = useNavigate()
@@ -52,7 +93,7 @@ export default function Home() {
         setTimeout(() => {
             setmsg('')
             window.location.reload(false);
-        }, 7000);
+        }, 2000);
         
     } catch (error) {
         console.log(error.response.data)
@@ -77,8 +118,22 @@ export default function Home() {
       </div>
       <div className='form'>
         <div className='formtop'>
-          <img src={wtm} alt='dare'/>
-          <h1>Fill the form below to participate</h1>
+          <h2>WTM Ikotun</h2>
+          <h1>International Women’s Day 2023</h1>
+          {/* <div className='img'>
+            <img src={wtm} alt='dare'/>
+          </div> */}
+          <h3>About this event</h3>
+          <div className='statement'>
+            <p>The International Women’s Day event is an annual campaign held to connect, educate, inspire, train and as well as accelerate the gender gap in the technology world.</p>
+            <p>It is also a moment to celebrate and provide visibility for the incredible contributions of women around the world. </p>
+            <p>We implore you all to join us in what promises to be an unconventional, inspiring and motivational event.</p>
+            <p>Our diverse speakers will share stories of how they have dared to be in both their daily life routines and their careers and we would be having hands-on training session on design.</p> 
+            <p>Don’t miss this 😍🥰</p>
+          </div>
+          <div className='type'>Virtual event</div>
+          <div className='date'>Date: 29th April, 2023</div>
+          
         </div>
         {
           Object.values(error).length >= 1 ?
@@ -97,7 +152,9 @@ export default function Home() {
           :
           ''
         }
-        <form>
+        {
+          rsvp === true ?
+          <form>
           <div>
             <p>Full name *</p>
             <input onChange={(e)=>{
@@ -159,9 +216,43 @@ export default function Home() {
             </select>
           </div><input onClick={checker} type="submit" />
         </form>
-        
+        :
+        <div className='rsvp' onClick={(e)=>setrsvp(!rsvp)}>RSVP</div>
+        }
         <div className='floater'>
           <img src={woman} alt='dare'/>
+        </div>
+
+        <div className='formtop'>
+          <h3>Organizer</h3>
+          <div className='speakers'>
+            {
+              org.map(({id, img, name, port})=>(
+                <div className='wrap'>
+                  <div className='img'>
+                    <img src={img} alt='dare'/>
+                  </div>
+                  <h4>{name}</h4>
+                  <p>{port}</p>
+                </div>
+              ))
+            }
+          </div>
+          <h3>Speakers</h3>
+          <div className='speakers'>
+            {
+              speak.map(({id, img, name, port})=>(
+                <div className='wrap'>
+                  <div className='img'>
+                    <img src={img} alt='dare'/>
+                  </div>
+                  <h4>{name}</h4>
+                    <p>{port}</p>
+                </div>
+              ))
+            }
+          </div>
+          
         </div>
         </div>
       

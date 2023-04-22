@@ -13,6 +13,7 @@ import UsedContext from './auth/usercontext';
 import Dashboard from './dashboard';
 import Register from './register';
 import Skills from './skills';
+import EmailList from './emaillist';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/result" element={<Display />} />
+          <Route path="/email-list" element={<EmailList />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Dashboard />} />
           <Route path="/register" element={<Register />} />
